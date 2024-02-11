@@ -1,0 +1,336 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+html{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}   
+
+.header
+{   
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    color: black;
+    background-color: white;
+    font-size: 1.3rem;
+    padding: 1rem;
+    box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+}
+
+.head{
+    padding-top: .5rem;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.block1{
+    padding-left: 5rem;
+}
+
+.block3
+{
+    padding-right: 3rem;
+    word-spacing: 1rem;
+}
+
+.navbar{
+    justify-content: space-between;
+    word-spacing: 2rem;
+}   
+
+.logo:hover{
+    color: rgb(127, 127, 222);
+}
+
+.navbar:hover{
+    color: rgb(127, 127, 222);
+}
+
+#icons{
+    background-color: #eee;
+    padding: 0.8rem;
+    border-radius: .5rem;
+}
+
+#icons:hover{
+    color: white;
+    background-color: rgb(127, 127, 222);
+    cursor: pointer;
+}
+
+#links:hover{
+    color:rgb(127, 127, 222);
+    text-decoration: underline;
+}
+
+.mainimage{
+    width: 95rem;
+    height: 45rem;
+    box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+}
+
+.main{
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.shoes{
+    display: flex;
+    justify-content: center;
+    gap: 2.8rem;
+}
+
+.shoeimage{
+    width: 22rem;
+    height: 16rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+.shoe{
+    border: 1.5px solid rgb(236, 236, 236);
+    padding: 1.3rem;
+}
+
+.shoe:hover{
+    border: 1.5px solid black;
+}
+
+.tags{
+    font-size: 2.1rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.sp{
+    color: white;
+    background-color: rgb(127, 127, 222);
+    display: inline-block;
+    padding: .5rem 3rem;
+    clip-path: polygon(100% 0, 93% 50%, 100% 99%, 0% 100%, 7% 50%,  0%  0%);
+}
+
+.shoehead{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.btn{
+    display: block;
+    text-align: center;
+    margin: 1rem 7rem 0rem 7rem;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+#arrow{
+    padding-left: 0.5rem;
+    color: black;
+}
+
+.btn:hover{
+    background-color: rgb(127, 127, 222);
+    color: white;
+
+    #arrow{
+        color: white;
+    }
+}
+
+.footer{
+    padding: 1.5rem;
+    text-align: center;
+    font-size: 1.35rem;
+    color: white;
+    background-color: black;
+}
+
+.credit{
+    cursor: pointer;
+}
+
+.container{
+    margin-top: 4rem;
+}
+
+.icons{    
+    padding: 1rem 0.5rem 1rem 0.5rem;
+    color: black;
+}
+
+.para
+{
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+    margin-bottom: 2.2rem;
+    width: 21rem;
+    font-size: 1.2rem;
+}
+
+.linkd
+{
+    margin-right: 8.5rem;
+}
+
+.stars{
+    color: rgb(127, 127, 222);
+    margin-top: 0.7rem;
+}
+
+#imageshape{
+    border-radius: 50%;
+    height: 13rem;
+    width: 13rem;
+    margin-left: 5rem;
+}
+
+.info
+{
+    text-align: center;
+}
+
+.boxes{
+    background-color: #eee;
+}
+
+.box{
+    margin-top: 4rem;
+    padding: 2rem 0rem 0rem 7rem;
+    display: flex;
+}
+
+.left{
+    margin-right: 55.5rem;
+}
+
+.right
+{
+    word-spacing: 1rem;
+    font-size: 1.3rem;
+}
+
+#social
+{
+    background-color: #ddd7d7;
+    color: black;
+    padding: .6rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+}
+
+#social:hover{
+    color: white;
+    background-color: rgb(127, 127, 222);
+}
+
+.footbar{
+    margin-left: 8.5rem;
+    justify-content: space-between;
+    word-spacing: 15rem;
+    font-size: 1.5rem;
+}
+
+#footlink{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.down{
+    display: flex;
+    margin-top: 2.5rem;
+    font-size: 1.2rem;
+    padding-bottom: 5rem;
+}
+
+#blocksicon{
+    color: rgb(127, 127, 222);
+    font-size: 1.2rem;
+    margin-right: 0.5rem;
+}
+
+.blocks1{
+    margin-left: 8.7rem;
+    width: 22rem;   
+}
+
+.blocks2{
+    margin-right: 10rem;
+    width: 10rem;
+}
+
+#blockslink
+{
+    list-style: none;
+    margin-bottom: 0.8rem;
+    cursor: pointer;
+}
+
+#blockslink:hover{
+    color: rgb(127, 127, 222);
+}
+
+#blocksarrow{
+    margin-right: 0.8rem;
+    color: rgb(127, 127, 222);
+}
+
+.blocks3
+{
+    font-weight: 600;
+    width: 8rem;
+    margin-right: 1rem;
+}
+
+.blocks4{
+    margin-right: 5.5rem;
+}
+
+.blocks5{
+    width: 20rem;
+}
+
+.inputbox{
+    display: flex;
+    margin-top: 2.5rem;
+}
+
+input{
+    width: 100%;
+    padding: 1rem;
+    border: solid 1px #eee;
+}
+
+::placeholder{
+    font-size: 1rem;
+}
+
+button{
+    position: absolute;
+    right: 3.4rem;
+    height: 2.9rem;
+    width: 7rem;
+    margin-top: 0.1rem;
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: white;
+    background-color: rgb(127, 127, 222);
+    border: solid 1px #eee;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(97, 97, 195);
+}
